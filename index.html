@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form action ="" id="memeForm">
+    <div class="meme-generator">
+        <label for="imageFileInput">Select an Image</label>
+        <input type="file" id="imageFileInput">
+
+        <label for="topTextInput">Top Text</label>
+        <input type="text" id="topTextInput">
+
+        <label for="bottomTextInput">Bottom Text</label>
+        <input type="text" id="bottomTextInput">
+
+        <div class="button">
+            <label for="memeSubmit">Submit Meme</label>
+            <input type="button" id="memeSubmit" value="Submit">
+        </div>
+
+        <canvas id="meme"></canvas>
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
